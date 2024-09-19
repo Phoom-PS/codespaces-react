@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Hello from './Hello';
+import Counter from './Counter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <Hello firstname="Pawarit" lastname="Singthong" age="20"/>
+    <Hello firstname="Chomchai Thongdee"/>
+    <Hello /> */}
+    <Counter/>
+    <Counter/>
   </React.StrictMode>
 );
 
